@@ -1,0 +1,134 @@
+=== Analysis Report: IsTask.dll ===
+size_bytes: 67584
+md5: 86a1311d51c00b278cb7f27796ea442e
+sha256: e916bdf232744e00cbd8d608168a019c9f41a68a7e8390aa48cfb525276c483d
+arch: x86
+machine_hex: 0x014C
+num_sections: 7
+timestamp_utc: 1992-06-19 22:22:17 UTC
+pe32_plus: False
+clr_present: False
+clr_rva: 0x00000000
+clr_size: 0
+
+-- Sections --
+CODE     VA=0x00001000 VSz=0xC75C RawPtr=0x00000400 RawSz=0xC800
+DATA     VA=0x0000E000 VSz=0x468 RawPtr=0x0000CC00 RawSz=0x600
+BSS      VA=0x0000F000 VSz=0x6F9 RawPtr=0x0000D200 RawSz=0x0
+.idata   VA=0x00010000 VSz=0x9AC RawPtr=0x0000D200 RawSz=0xA00
+.edata   VA=0x00011000 VSz=0xA7 RawPtr=0x0000DC00 RawSz=0x200
+.reloc   VA=0x00012000 VSz=0x1168 RawPtr=0x0000DE00 RawSz=0x1200
+.rsrc    VA=0x00014000 VSz=0x1800 RawPtr=0x0000F000 RawSz=0x1800
+
+-- Exports --
+ExecConsoleAppX @5 RVA=0x0000CB94
+KillTask @4 RVA=0x0000CF5C
+RunTask @3 RVA=0x0000CE3C
+SerialNumberDisk @2 RVA=0x0000D1B4
+SerialNumberHDD @1 RVA=0x0000D604
+
+-- Imports --
+kernel32.dll!GetCurrentThreadId (Hint=0)
+kernel32.dll!DeleteCriticalSection (Hint=0)
+kernel32.dll!LeaveCriticalSection (Hint=0)
+kernel32.dll!EnterCriticalSection (Hint=0)
+kernel32.dll!InitializeCriticalSection (Hint=0)
+kernel32.dll!VirtualFree (Hint=0)
+kernel32.dll!VirtualAlloc (Hint=0)
+kernel32.dll!LocalFree (Hint=0)
+kernel32.dll!LocalAlloc (Hint=0)
+kernel32.dll!VirtualQuery (Hint=0)
+kernel32.dll!WideCharToMultiByte (Hint=0)
+kernel32.dll!MultiByteToWideChar (Hint=0)
+kernel32.dll!lstrlenA (Hint=0)
+kernel32.dll!lstrcpynA (Hint=0)
+kernel32.dll!lstrcpyA (Hint=0)
+kernel32.dll!LoadLibraryExA (Hint=0)
+kernel32.dll!GetThreadLocale (Hint=0)
+kernel32.dll!GetStartupInfoA (Hint=0)
+kernel32.dll!GetProcAddress (Hint=0)
+kernel32.dll!GetModuleHandleA (Hint=0)
+kernel32.dll!GetModuleFileNameA (Hint=0)
+kernel32.dll!GetLocaleInfoA (Hint=0)
+kernel32.dll!GetLastError (Hint=0)
+kernel32.dll!GetCommandLineA (Hint=0)
+kernel32.dll!FreeLibrary (Hint=0)
+kernel32.dll!FindFirstFileA (Hint=0)
+kernel32.dll!FindClose (Hint=0)
+kernel32.dll!ExitProcess (Hint=0)
+kernel32.dll!WriteFile (Hint=0)
+kernel32.dll!UnhandledExceptionFilter (Hint=0)
+kernel32.dll!SetFilePointer (Hint=0)
+kernel32.dll!SetEndOfFile (Hint=0)
+kernel32.dll!RtlUnwind (Hint=0)
+kernel32.dll!ReadFile (Hint=0)
+kernel32.dll!RaiseException (Hint=0)
+kernel32.dll!GetStdHandle (Hint=0)
+kernel32.dll!GetFileSize (Hint=0)
+kernel32.dll!GetFileType (Hint=0)
+kernel32.dll!CreateFileA (Hint=0)
+kernel32.dll!CloseHandle (Hint=0)
+user32.dll!GetKeyboardType (Hint=0)
+user32.dll!LoadStringA (Hint=0)
+user32.dll!MessageBoxA (Hint=0)
+user32.dll!CharNextA (Hint=0)
+advapi32.dll!RegQueryValueExA (Hint=0)
+advapi32.dll!RegOpenKeyExA (Hint=0)
+advapi32.dll!RegCloseKey (Hint=0)
+oleaut32.dll!VariantChangeTypeEx (Hint=0)
+oleaut32.dll!VariantCopyInd (Hint=0)
+oleaut32.dll!VariantClear (Hint=0)
+oleaut32.dll!SysStringLen (Hint=0)
+oleaut32.dll!SysFreeString (Hint=0)
+oleaut32.dll!SysReAllocStringLen (Hint=0)
+oleaut32.dll!SysAllocStringLen (Hint=0)
+kernel32.dll!TlsSetValue (Hint=0)
+kernel32.dll!TlsGetValue (Hint=0)
+kernel32.dll!TlsFree (Hint=0)
+kernel32.dll!TlsAlloc (Hint=0)
+kernel32.dll!LocalFree (Hint=0)
+kernel32.dll!LocalAlloc (Hint=0)
+kernel32.dll!GetModuleFileNameA (Hint=0)
+kernel32.dll!WriteFile (Hint=0)
+kernel32.dll!WaitForSingleObject (Hint=0)
+kernel32.dll!VirtualQuery (Hint=0)
+kernel32.dll!TerminateProcess (Hint=0)
+kernel32.dll!SetFilePointer (Hint=0)
+kernel32.dll!SetEndOfFile (Hint=0)
+kernel32.dll!ReadFile (Hint=0)
+kernel32.dll!OpenProcess (Hint=0)
+kernel32.dll!LoadLibraryA (Hint=0)
+kernel32.dll!LeaveCriticalSection (Hint=0)
+kernel32.dll!InitializeCriticalSection (Hint=0)
+kernel32.dll!GlobalUnlock (Hint=0)
+kernel32.dll!GlobalReAlloc (Hint=0)
+kernel32.dll!GlobalHandle (Hint=0)
+kernel32.dll!GlobalLock (Hint=0)
+kernel32.dll!GlobalFree (Hint=0)
+kernel32.dll!GlobalAlloc (Hint=0)
+kernel32.dll!GetVolumeInformationA (Hint=0)
+kernel32.dll!GetVersionExA (Hint=0)
+kernel32.dll!GetThreadLocale (Hint=0)
+kernel32.dll!GetProcAddress (Hint=0)
+kernel32.dll!GetModuleHandleA (Hint=0)
+kernel32.dll!GetModuleFileNameA (Hint=0)
+kernel32.dll!GetLocaleInfoA (Hint=0)
+kernel32.dll!GetLastError (Hint=0)
+kernel32.dll!GetDiskFreeSpaceA (Hint=0)
+kernel32.dll!GetCurrentThreadId (Hint=0)
+kernel32.dll!GetCPInfo (Hint=0)
+kernel32.dll!FormatMessageA (Hint=0)
+kernel32.dll!EnumCalendarInfoA (Hint=0)
+kernel32.dll!EnterCriticalSection (Hint=0)
+kernel32.dll!DeviceIoControl (Hint=0)
+kernel32.dll!DeleteCriticalSection (Hint=0)
+kernel32.dll!CreateProcessA (Hint=0)
+kernel32.dll!CreatePipe (Hint=0)
+kernel32.dll!CreateFileA (Hint=0)
+kernel32.dll!CreateEventA (Hint=0)
+kernel32.dll!CompareStringA (Hint=0)
+kernel32.dll!CloseHandle (Hint=0)
+user32.dll!MessageBoxA (Hint=0)
+user32.dll!LoadStringA (Hint=0)
+user32.dll!GetSystemMetrics (Hint=0)
+user32.dll!DestroyWindow (Hint=0)

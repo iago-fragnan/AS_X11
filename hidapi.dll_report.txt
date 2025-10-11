@@ -1,0 +1,125 @@
+=== Analysis Report: hidapi.dll ===
+size_bytes: 84480
+md5: 4b0614abfb35f8cdaccc5f0a9985f440
+sha256: f4e23fe7182822b57305a8aee056a38e875c047e0785e598c1cfd2c1ab7a92bd
+arch: x86
+machine_hex: 0x014C
+num_sections: 5
+timestamp_utc: 2022-02-17 09:59:36 UTC
+pe32_plus: False
+clr_present: False
+clr_rva: 0x00000000
+clr_size: 0
+
+-- Sections --
+.text    VA=0x00001000 VSz=0xC468 RawPtr=0x00000400 RawSz=0xC600
+.rdata   VA=0x0000E000 VSz=0x62B0 RawPtr=0x0000CA00 RawSz=0x6400
+.data    VA=0x00015000 VSz=0x135C RawPtr=0x00012E00 RawSz=0xA00
+.rsrc    VA=0x00017000 VSz=0x1E0 RawPtr=0x00013800 RawSz=0x200
+.reloc   VA=0x00018000 VSz=0xF0C RawPtr=0x00013A00 RawSz=0x1000
+
+-- Exports --
+_hid_close@4 @1 RVA=0x00002260
+_hid_enumerate@8 @2 RVA=0x000018A0
+_hid_error@4 @3 RVA=0x000023C0
+_hid_exit@0 @4 RVA=0x00001300
+_hid_free_enumeration@4 @5 RVA=0x00001B00
+_hid_get_feature_report@12 @6 RVA=0x00002140
+_hid_get_indexed_string@16 @7 RVA=0x00002380
+_hid_get_input_report@12 @8 RVA=0x000021D0
+_hid_get_manufacturer_string@12 @9 RVA=0x000022C0
+_hid_get_product_string@12 @10 RVA=0x00002300
+_hid_get_serial_number_string@12 @11 RVA=0x00002340
+_hid_init@0 @12 RVA=0x000012A0
+_hid_open@12 @13 RVA=0x00001B50
+_hid_open_path@4 @14 RVA=0x00001C20
+_hid_read@12 @15 RVA=0x00002080
+_hid_read_timeout@16 @16 RVA=0x00001F60
+_hid_send_feature_report@12 @17 RVA=0x000020C0
+_hid_set_nonblocking@8 @18 RVA=0x000020A0
+_hid_version@0 @19 RVA=0x00001280
+_hid_version_str@0 @20 RVA=0x00001290
+_hid_write@12 @21 RVA=0x00001E70
+
+-- Imports --
+SETUPAPI.dll!SetupDiGetDeviceRegistryPropertyA (Hint=369)
+SETUPAPI.dll!SetupDiEnumDeviceInfo (Hint=320)
+SETUPAPI.dll!SetupDiGetDeviceInterfaceDetailA (Hint=363)
+SETUPAPI.dll!SetupDiGetClassDevsA (Hint=337)
+SETUPAPI.dll!SetupDiEnumDeviceInterfaces (Hint=321)
+SETUPAPI.dll!SetupDiDestroyDeviceInfoList (Hint=317)
+KERNEL32.dll!LoadLibraryExW (Hint=967)
+KERNEL32.dll!WriteConsoleW (Hint=1557)
+KERNEL32.dll!CreateFileW (Hint=206)
+KERNEL32.dll!SetFilePointerEx (Hint=1317)
+KERNEL32.dll!ReadFile (Hint=1141)
+KERNEL32.dll!CancelIo (Hint=115)
+KERNEL32.dll!WriteFile (Hint=1558)
+KERNEL32.dll!DeviceIoControl (Hint=288)
+KERNEL32.dll!WaitForSingleObject (Hint=1499)
+KERNEL32.dll!CreateEventW (Hint=194)
+KERNEL32.dll!FormatMessageW (Hint=426)
+KERNEL32.dll!GetLastError (Hint=612)
+KERNEL32.dll!CreateFileA (Hint=198)
+KERNEL32.dll!LoadLibraryA (Hint=965)
+KERNEL32.dll!CloseHandle (Hint=137)
+KERNEL32.dll!ResetEvent (Hint=1224)
+KERNEL32.dll!GetOverlappedResult (Hint=667)
+KERNEL32.dll!GetProcAddress (Hint=689)
+KERNEL32.dll!LocalFree (Hint=979)
+KERNEL32.dll!FreeLibrary (Hint=430)
+KERNEL32.dll!GetConsoleMode (Hint=511)
+KERNEL32.dll!UnhandledExceptionFilter (Hint=1457)
+KERNEL32.dll!SetUnhandledExceptionFilter (Hint=1393)
+KERNEL32.dll!GetCurrentProcess (Hint=538)
+KERNEL32.dll!TerminateProcess (Hint=1424)
+KERNEL32.dll!IsProcessorFeaturePresent (Hint=905)
+KERNEL32.dll!QueryPerformanceCounter (Hint=1103)
+KERNEL32.dll!GetCurrentProcessId (Hint=539)
+KERNEL32.dll!GetCurrentThreadId (Hint=543)
+KERNEL32.dll!GetSystemTimeAsFileTime (Hint=748)
+KERNEL32.dll!InitializeSListHead (Hint=870)
+KERNEL32.dll!IsDebuggerPresent (Hint=898)
+KERNEL32.dll!GetStartupInfoW (Hint=723)
+KERNEL32.dll!GetModuleHandleW (Hint=635)
+KERNEL32.dll!InterlockedFlushSList (Hint=879)
+KERNEL32.dll!RtlUnwind (Hint=1237)
+KERNEL32.dll!SetLastError (Hint=1332)
+KERNEL32.dll!EnterCriticalSection (Hint=308)
+KERNEL32.dll!LeaveCriticalSection (Hint=961)
+KERNEL32.dll!DeleteCriticalSection (Hint=275)
+KERNEL32.dll!InitializeCriticalSectionAndSpinCount (Hint=866)
+KERNEL32.dll!TlsAlloc (Hint=1442)
+KERNEL32.dll!TlsGetValue (Hint=1444)
+KERNEL32.dll!TlsSetValue (Hint=1445)
+KERNEL32.dll!TlsFree (Hint=1443)
+KERNEL32.dll!DecodePointer (Hint=268)
+KERNEL32.dll!RaiseException (Hint=1124)
+KERNEL32.dll!ExitProcess (Hint=353)
+KERNEL32.dll!GetModuleHandleExW (Hint=634)
+KERNEL32.dll!GetModuleFileNameW (Hint=631)
+KERNEL32.dll!MultiByteToWideChar (Hint=1011)
+KERNEL32.dll!HeapAlloc (Hint=840)
+KERNEL32.dll!HeapFree (Hint=844)
+KERNEL32.dll!FindClose (Hint=376)
+KERNEL32.dll!FindFirstFileExW (Hint=382)
+KERNEL32.dll!FindNextFileW (Hint=399)
+KERNEL32.dll!IsValidCodePage (Hint=911)
+KERNEL32.dll!GetACP (Hint=437)
+KERNEL32.dll!GetOEMCP (Hint=666)
+KERNEL32.dll!GetCPInfo (Hint=452)
+KERNEL32.dll!GetCommandLineA (Hint=473)
+KERNEL32.dll!GetCommandLineW (Hint=474)
+KERNEL32.dll!WideCharToMultiByte (Hint=1538)
+KERNEL32.dll!GetEnvironmentStringsW (Hint=570)
+KERNEL32.dll!FreeEnvironmentStringsW (Hint=429)
+KERNEL32.dll!LCMapStringW (Hint=949)
+KERNEL32.dll!GetProcessHeap (Hint=695)
+KERNEL32.dll!GetStdHandle (Hint=725)
+KERNEL32.dll!GetFileType (Hint=593)
+KERNEL32.dll!GetStringTypeW (Hint=730)
+KERNEL32.dll!HeapSize (Hint=849)
+KERNEL32.dll!HeapReAlloc (Hint=847)
+KERNEL32.dll!SetStdHandle (Hint=1358)
+KERNEL32.dll!FlushFileBuffers (Hint=418)
+KERNEL32.dll!GetConsoleOutputCP (Hint=515)
