@@ -1,0 +1,7 @@
+LIBRARY IsTask
+EXPORTS
+    ExecConsoleAppX
+    KillTask
+    RunTask
+    SerialNumberDisk
+    SerialNumberHDD

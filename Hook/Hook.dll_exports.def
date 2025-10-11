@@ -1,0 +1,15 @@
+LIBRARY Hook
+EXPORTS
+    ?hookproc@@YGJHIJ@Z
+    ?mousehookproc@@YGJHIJ@Z
+    FWCodeToVK
+    GetVKName
+    VKToFWCode
+    enablehook
+    enablemousehook
+    installhook
+    installmousehook
+    mouseenable
+    mousewheelenable
+    removehook
+    removemousehook
