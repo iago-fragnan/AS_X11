@@ -1,0 +1,33 @@
+=== Hook.dll Analysis Report ===
+Path: /mnt/data/Hook.dll
+Size: 163840 bytes
+MD5: 40ca7b14b51391584bb55c53f5f3d27f
+SHA256: c64d0f7433eb12d6af490a32366dd356c8a5408361122bc5f2df606e83b502a8
+Machine/Arch: x86 (0x014C)
+Number of Sections: 6
+TimeDateStamp: 2022-02-22 10:11:21 UTC
+PE32+: False
+CLR (.NET) present: False (RVA=0x00000000, Size=0)
+
+-- Sections --
+.text    VA=0x00001000 VSz=0x18BFA RawPtr=0x00000400 RawSz=0x18C00
+.rdata   VA=0x0001A000 VSz=0xB79E RawPtr=0x00019000 RawSz=0xB800
+.data    VA=0x00026000 VSz=0x3860 RawPtr=0x00024800 RawSz=0x1A00
+.HOOKDAT VA=0x0002A000 VSz=0x10 RawPtr=0x00026200 RawSz=0x200
+.rsrc    VA=0x0002B000 VSz=0x1E0 RawPtr=0x00026400 RawSz=0x200
+.reloc   VA=0x0002C000 VSz=0x1904 RawPtr=0x00026600 RawSz=0x1A00
+
+-- Exports --
+?hookproc@@YGJHIJ@Z @9 RVA=0x00002BB0
+?mousehookproc@@YGJHIJ@Z @10 RVA=0x00002E60
+FWCodeToVK @11 RVA=0x00002520
+GetVKName @12 RVA=0x00002680
+VKToFWCode @13 RVA=0x00002A60
+enablehook @5 RVA=0x00002B70
+enablemousehook @6 RVA=0x00002B90
+installhook @1 RVA=0x00002DC0
+installmousehook @2 RVA=0x00002E00
+mouseenable @7 RVA=0x00002E40
+mousewheelenable @8 RVA=0x00002FB0
+removehook @3 RVA=0x00002FD0
+removemousehook @4 RVA=0x00002FF0
