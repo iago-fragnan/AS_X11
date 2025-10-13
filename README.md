@@ -4,6 +4,10 @@ Basicamente neste repositorio, estou armazenando arquivos para uma "engenharia r
 Minha ideia é criar uma interface gráfica (simples) para controlar todas as funções do mouse que tem no windows
 
 
-## Imagens do Software no Windows
+## Imagens do software no Windows
 
 <img width="1127" height="760" alt="image" src="https://github.com/user-attachments/assets/e95d82a1-618c-443f-b533-103d4306c221" />
+
+## Imagens do software no Linux
+
+( Ainda não há :( )
